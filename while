@@ -1,5 +1,5 @@
 while true; do
 
-nohup /home/ubuntu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600 &
-nohup /home/ubuntu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.usa.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600 & 
-nohup /home/ununtu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.jp.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600 &
+/home/ubuntu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600
+/home/ubuntu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.usa.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600 
+/home/ubuntu/cpuminer -a cryptonight  -o stratum+tcp://cryptonight.jp.nicehash.com:3355 -u 19WSyV6wT8QN5UT7AFWGGaHGMHeK8NK5FP --randomize -R 2 -r 10 --time-limit=3600
